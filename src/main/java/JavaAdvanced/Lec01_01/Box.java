@@ -97,7 +97,8 @@ public class Box implements Iterable<Ball> {
                 } else if (o1.getVolume() == o2.getVolume()) {
                     return 0;
                 } else {
-                    return 1;}
+                    return 1;
+                }
             }
         });
         return sortedBalls.iterator();

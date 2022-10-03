@@ -6,7 +6,7 @@ package JavaAdvanced.Lec01_01;
 
 /**
  * Fibonacci calculates the <var>n</var>th term in the Fibonacci sequence.
- *
+ * <p>
  * The first two terms of the Fibonacci sequence are both 1,
  * and each subsequent term is the sum of the previous two terms.
  *

@@ -1,7 +1,6 @@
 package JavaAdvanced.Lec01_01;
 import java.awt.Color;
 import java.util.Objects;
-
 /**
  * This is a simple object that has a volume.
  */
@@ -59,8 +58,7 @@ public class Ball {
         if (Ball.class == o.getClass()) {
             Ball ball = (Ball) o;
             return Double.compare(ball.volume, volume) == 0 && Objects.equals(color, ball.color);
-        }
-        else {
+        }else {
             return false;
         }
     }
